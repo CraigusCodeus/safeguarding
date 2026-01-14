@@ -113,3 +113,60 @@ section p {
     color: white;
     margin-bottom: 20px;
 }
+
+h3 {
+    font-weight: 700;
+    color: #3b4c62;
+}
+
+/* styling for form at the end lets see if we can get this to work */
+.report-form,
+.form-title {
+    margin: 0; /* remove auto‑centering */
+    padding: 0; /* keep alignment tight */
+}
+/* form aligns with the section text? */
+section .form-title,
+section .report-form {
+    margin-left: 0;
+}
+
+/* Fieldset styling */
+.form-group {
+    border: 2px solid white;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+/* lets make input form bigger */
+.form-group textarea {
+    width: 500px;
+    height: 200px;
+}
+/* Form title bar */
+.form-title {
+    background: #ac6c42;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.form-title h3 {
+    margin: 0;
+    color: white;
+    font-size: 1.4rem;
+}
+.form-btn {
+    background: #ac6c42;
+    color: white;
+    padding: 10px 20px;
+    min-width: 100px; /* match hero button width */
+    text-align: center;
+    border: none; /* remove border */
+    border-radius: 4px;
+    cursor: pointer; /* makes it feel clickable */
+    font-size: 1rem;
+}
+label[for="concern"] {
+    display: block;
+    margin: 0 0 8px 0;
+}

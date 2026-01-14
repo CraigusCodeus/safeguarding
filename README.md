@@ -18,7 +18,7 @@ This Safeguarding practices webpage is a landing page for people who are concern
 ## Credits
 
 -   Image from https://www.pexels.com/royalty-free-images/
--   Microsoft Co-Pilot used to assist with coding, guidance, recommendations and de-bugging
 -   https://www.ncvo.org.uk/help-and-guidance/safeguarding/ for overview text
 -   Google ai overview; took details for Individual Behavioural and Physical Signs
 -   https://onlinedbschecks.co.uk/blog/five-r-of-safeguarding/ for the 5 'R' action points
+-   Microsoft Co-Pilot used to assist with coding, guidance, questions, recommendations and de-bugging. Kept Co-Pilot within realms of what we have only learned so far. The only css I used to correct position of my form field was label[for="concern"]. Quite simply, I dont recall using square brackets to target html specifically, and was running out of time to check back through all the past sessions
