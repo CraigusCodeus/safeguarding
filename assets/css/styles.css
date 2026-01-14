@@ -80,9 +80,8 @@ body {
     gap: 30px;
 }
 section {
-    padding: 60px 40px; /* top/bottom, left/right */
+    padding: 0px 100px; /* top/bottom, left/right */
     max-width: 900px; /* keeps content readable */
-    margin: 40px auto; /* centres the sections */
 }
 section h2 {
     font-size: 2rem;
@@ -99,11 +98,7 @@ section p {
     width: 100%;
     padding: 60px 0;
 }
-.section-bg section {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 40px;
-}
+
 .section-what {
     background: #bfd7ed;
 }
